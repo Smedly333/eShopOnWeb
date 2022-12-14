@@ -6,7 +6,7 @@ on: [push, workflow_dispatch]
 #Environment variables https://docs.github.com/en/actions/learn-github-actions/environment-variables
 env:
   RESOURCE-GROUP: rg-az400-eshoponweb-Smedly
-  LOCATION: centralus
+  LOCATION: Central US
   TEMPLATE-FILE: .azure/bicep/webapp.bicep
   SUBSCRIPTION-ID: a1c17db0-92eb-47fb-bb50-6314eabfbf93
   WEBAPP-NAME: az400-webapp-Smedly
